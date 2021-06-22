@@ -41,7 +41,7 @@
     
       <font size="5" face="Georgia, Arial" color=#0000>     
 
-        <h3> ATIVIDADE CRUD PROJETO WEB 2 </h3>
+        <h3> ATIVIDADE PROJETO WEB 2 CRUD </h3>
 
       </font>
 
