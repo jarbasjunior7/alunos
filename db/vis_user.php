@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inserir</title>
+  <title>Alunos Adicionados</title>
 </head>
 <body>
   
@@ -16,7 +16,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <main class="container">
+    
 
     <br>
     <br>
@@ -26,7 +26,7 @@
     
       <font size="5" face="Georgia, Arial" color=#0000>     
 
-        <h1> INSIRA OS DADOS DOS ALUNOS </h1>
+        <h1> Alunos Inseridos </h1>
 
       </font>
 
@@ -36,28 +36,27 @@
     <br>
     <br>
     <br>
+    <main class="container">
 
-    <form name="form_cad_user.html" action="crud/create.php" method="POST">
-      <div class="mb-3">
-        <label for="examplealuno" class="form-label">Nome Do Aluno</label>
-        <input type="aluno" name="aluno" class="form-control" id="exampleInputaluno">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Id Aluno</th>
+            <th scope="col">Aluno</th>
+            <th scope="col">Disciplina</th>
+            <th scope="col">Nota 1</th>
+            <th scope="col">Nota 2</th>
+            <th scope="col">Editar</th>
+            <th scope="col">Excluir</th>
+            
+          </tr>
+        </thead>
+        <tbody>
 
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputdisciplina" class="form-label">Disciplina</label>
-        <input type="disciplina" name="disciplina" class="form-control" id="exampleInputdiciplina">
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputnota1" class="form-label">1º Nota</label>
-        <input type="nota1" name="nota1" class="form-control" id="exampleInputnota1">
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputnota2" class="form-labe2">2º Nota</label>
-        <input type="nota2" name="nota2" class="form-control" id="exampleInputnota2">
-      </div>
+      <?php include "alunos/crud/read.php";?>
 
-      <button type="submit" class="btn btn-primary">Criar</button>
-    </form>
+        </tbody>
+    </table>
   </main>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>

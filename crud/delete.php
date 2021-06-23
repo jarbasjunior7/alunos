@@ -31,5 +31,8 @@ try {
 
 $conn = null;
 ?> 
+
+<a href="http://localhost/alunos/">Inicio</a>
+
 </body>
 </html>

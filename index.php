@@ -26,12 +26,12 @@
       <br>
       <br>
 
-      <a href = "cad_user.html" >Adicionar Dados na Tabela </a> 
+      <a href = "cad_user.html" >Adicionar Dados a Tabela </a> 
           
         <br>
          <br>
 
-      <a href = "crud/read.php" > Consultar Tabela </a>
+      <a href = "db/vis_user.php" > Consultar Tabela </a>
         
         <br>
          <br>
@@ -51,7 +51,7 @@
          <br>
 
       <a href="cad_user.html">Create,</a>
-       <a href="crud/read.php">Read,</a>
+       <a href="db/vis_user.php">Read,</a>
         <a href="crud/update.php">Update,</a>
          <a href="crud/delete.php">Delete</a>
     
